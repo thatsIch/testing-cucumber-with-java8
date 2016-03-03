@@ -1,9 +1,9 @@
-This is a toy project to play around with [cucumber](https://cucumber.io/) in [Gradle](http://gradle.org/). 
+This is a toy project to play around with [Cucumber](https://cucumber.io/) in [Gradle](http://gradle.org/). 
 
 * Cucumber is for Behaviour-Driven Development
 * Gradle is a hackable build tool
 
-Execute `gradlew test` to see cucumber in action.
+Execute `gradlew test` to see Cucumber in action.
  
 
 An expected result would be:
@@ -55,4 +55,4 @@ An expected result would be:
                    
 That is showing that the book example is running fine but the skeleton example is still missing parts of its test.
 
-This project was run with [IntelliJ](https://www.jetbrains.com/idea/), which offers direct support for cucumber feature files and evaluation of the respective classes, if the feature is fully implemented or not.
+This project was run with [IntelliJ](https://www.jetbrains.com/idea/), which offers direct support for Cucumber feature-files and evaluation of the respective classes, if the feature is fully implemented or not.
