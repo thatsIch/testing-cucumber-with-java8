@@ -1,0 +1,21 @@
+group 'de.thatsich'
+version '1.0.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'info.cukes:cucumber-java:1.2.4'
+    testCompile 'info.cukes:cucumber-junit:1.2.4'
+    testCompile 'junit:junit:4.12'
+}
+
+test {
+    testLogging.showStandardStreams = true
+    systemProperties System.getProperties()
+}
